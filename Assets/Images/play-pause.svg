@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" id="playPauseIcon">
+  <!-- Left shape: left pause bar <-> top half of play triangle -->
+  <path id="barLeft" d="M8 5 L19 12 L8 12 L8 12 Z">
+    <animate
+      id="toPause1"
+      attributeName="d"
+      begin="indefinite"
+      dur="0.22s"
+      fill="freeze"
+      calcMode="spline"
+      keySplines="0.4 0 0.2 1"
+      values="M8 5 L19 12 L8 12 L8 12 Z;M6 5 L10 5 L10 19 L6 19 Z"
+    />
+    <animate
+      id="toPlay1"
+      attributeName="d"
+      begin="indefinite"
+      dur="0.22s"
+      fill="freeze"
+      calcMode="spline"
+      keySplines="0.4 0 0.2 1"
+      values="M6 5 L10 5 L10 19 L6 19 Z;M8 5 L19 12 L8 12 L8 12 Z"
+    />
+  </path>
+
+  <!-- Right shape: right pause bar <-> bottom half of play triangle -->
+  <path id="barRight" d="M8 12 L19 12 L8 19 L8 19 Z">
+    <animate
+      id="toPause2"
+      attributeName="d"
+      begin="indefinite"
+      dur="0.22s"
+      fill="freeze"
+      calcMode="spline"
+      keySplines="0.4 0 0.2 1"
+      values="M8 12 L19 12 L8 19 L8 19 Z;M14 5 L18 5 L18 19 L14 19 Z"
+    />
+    <animate
+      id="toPlay2"
+      attributeName="d"
+      begin="indefinite"
+      dur="0.22s"
+      fill="freeze"
+      calcMode="spline"
+      keySplines="0.4 0 0.2 1"
+      values="M14 5 L18 5 L18 19 L14 19 Z;M8 12 L19 12 L8 19 L8 19 Z"
+    />
+  </path>
+</svg>

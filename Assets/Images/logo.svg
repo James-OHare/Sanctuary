@@ -1,0 +1,11 @@
+<svg viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(20,0)">
+    <path d="M30,140 L30,80 A50,50 0 0 1 130,80 L130,140"
+          fill="none" stroke="#1B1F2A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="60" y="105" width="9" height="26" rx="4" fill="#C9A24B"/>
+    <rect x="75.5" y="90" width="9" height="41" rx="4" fill="#C9A24B"/>
+    <rect x="91" y="105" width="9" height="26" rx="4" fill="#C9A24B"/>
+  </g>
+  <text x="210" y="120" font-family="Iowan Old Style, Palatino Linotype, Georgia, serif"
+        font-size="80" letter-spacing="3" fill="#1B1F2A">Sanctuary</text>
+</svg>
